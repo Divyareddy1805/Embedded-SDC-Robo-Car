@@ -45,7 +45,7 @@ if (switchstate3 == HIGH)
   digitalWrite(pin3 , LOW); 
   digitalWrite(pin4 , LOW); 
 }
-if (switchstate3 == HIGH)
+if (switchstate4 == HIGH)
 {
   Serial.println('left');
   digitalWrite(pin1 , LOW); 
